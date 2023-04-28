@@ -36,6 +36,20 @@ print(6.62607E-34)
 
 print(0.0000000000000000000001)  # printed with the e notation
 
+#  strings NEED quotes
+
+#  using\ as an escape to print weird symbols
+
+print("I like Monty Python")
+
+print("I like \"Monty Python\"")
+
+#  apostrophe can also be used
+
+print('I like "Monty Python"')
+
+print("I'm Monty Python")
+print('I\'m Monty Python')
 
 
 
