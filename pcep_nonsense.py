@@ -39,5 +39,35 @@ print("My", "name", "is", "Monty", "Python.", sep="-") # like separator; works k
 print("My", "name", "is", sep="_", end="*")
 print("Monty", "Python.", sep="*", end="*\n")
 
+print("Monty", "Python.", sep="*", end="*\n")
+
+print("Programming","Essentials","in") # Modify the first line of code in the editor,
+print("Python") # using the sep and end keywords, to match the expected output. Use the print() functions in the editor.
+
+print("Programming","Essentials","in", sep="***", end="...")
+print("Python")
+
+
+print("    *")
+print("   * *")
+print("  *   *")
+print(" *     *")
+print("***   ***")
+print("  *   *")
+print("  *   *")
+print("  *****")
+
+# getting weird with this arrow.
+
+print("    * " * 2)
+print("   * * " * 2)
+print("  *   * " * 2)
+print(" *     * " * 2)   # okay the second arrows left diagonal will not.. diag... not sure how to fix. will revist.
+print("***   *** " * 2)
+print("  *   * " * 2)
+print("  *   * " * 2)
+print("  ***** " * 2)
+
+print("    *\n" + "   * *\n" + "  *   *\n" + " *     *\n" + "***   ***\n" + "  *   *\n" + "  *   *\n" + "  *****")
 
 
