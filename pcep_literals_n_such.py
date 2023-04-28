@@ -17,3 +17,25 @@ print(0o123)  # 0o makes this an octal value
 
 print(0x123)  # 0x makes this a hex value
 
+# floats - denoted by decimals
+
+# the letter "e" can make a float and scientific notation can be used
+
+print(300000000)  # 3 * 10^8
+
+print(3E8)  # E as in exponent
+
+# the exponent value after e HAS to be an integer
+# the exponent value before e MAY be an integer
+
+# plancks constant - 6.62607*10^-34
+
+print(6.62607E-34)
+
+# python may choose a differetn notation
+
+print(0.0000000000000000000001)  # printed with the e notation
+
+
+
+
