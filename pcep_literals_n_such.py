@@ -51,5 +51,13 @@ print('I like "Monty Python"')
 print("I'm Monty Python")
 print('I\'m Monty Python')
 
+#  Booleans - True or False (case sensitive))
 
+print(True > False)
+print(True < False)
 
+# Python literals lab
+
+print('"I\'m"\n' + '""learning""\n' + '\"""Python""\"')  # this is some siliness but important I guess lol
+
+# "none" or "NoneType" is devoid of value
