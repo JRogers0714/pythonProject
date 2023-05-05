@@ -51,3 +51,26 @@ total_apples(john, mary, adam)
 all_apples = john + mary + adam
 
 print(all_apples)
+
+# shortcut operators
+
+# x *= 2  = x= x*2
+# sheep += 1 = x=x+1
+
+# these work with all operators
+
+kilometers = 12.25
+miles = 7.38
+
+miles_to_kilometers = 7.38 * 1.61
+kilometers_to_miles = 12.25 * 0.621371
+
+print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers")
+print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
+
+x =  # hardcode your test data here
+x = float(x)
+# write your code here
+print("y =", y)
+
+
