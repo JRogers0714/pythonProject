@@ -38,5 +38,14 @@ print(12 % 4.5)
 
 # addition
 
+print(-4 + 4)
+print(-4. + 8)
 
+print(-4 - 4)
+print(4. - 8)
+print(-1.1)  # unary - operator
+
+print(+2) # unary + operator
+
+print(9 % 6 % 2)  # Binding to then left
 
